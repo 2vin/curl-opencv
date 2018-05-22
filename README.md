@@ -9,7 +9,7 @@ In order to compile the program, you must install 'curl' on the system. Choose a
    `https://github.com/curl/curl`    
 
 After installing curl, use the following command to compile the program.
-g++ curl-opencv.cpp -o main `pkg-config --cflags --libs opencv` -lcurl
+g++ curl-opencv.cpp -o main \`pkg-config --cflags --libs opencv\` -lcurl
 
 # Example    
 ./main URL
