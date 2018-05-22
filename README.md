@@ -17,5 +17,5 @@ g++ curl-opencv.cpp -o main \`pkg-config --cflags --libs opencv\` -lcurl
 Try:    
 ./main https://cdn.pixabay.com/photo/2017/02/13/08/54/brain-2062057_960_720.jpg   
 
-It should display the following image on the screen.
+It should display the following image on the screen.    
 ![alt text](https://raw.githubusercontent.com/2vin/curl-opencv/master/data/brain.jpg)
